@@ -3,7 +3,7 @@ import styled from "styled-components";
 export const Container = styled.div`
 flex: 1;
 background: ${props=> props.background || '#fff'};
-height: 100vh;
+height: auto;
 `;
 
 export const Content = styled.div`

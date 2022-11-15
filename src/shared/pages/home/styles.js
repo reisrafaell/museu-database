@@ -15,6 +15,11 @@ export const Asside = styled.aside`
   flex-direction: column;
   align-items: center;
   padding: 1.5rem;
+  div {
+    flex: 1;
+    display: flex;
+    align-items: flex-end;
+  }
 `;
 
 export const Content = styled.div`
@@ -31,9 +36,13 @@ export const ContentTop = styled.div`
   border-radius: 0.5rem;
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
+  align-items: center;
   padding: 1rem;
   gap: 1rem;
+  input{
+    width: 30rem;
+    border: 0;
+  }
 `;
 export const ContentBot = styled.div`
   width: 100%;
@@ -49,6 +58,5 @@ export const ContentBot = styled.div`
 `;
 
 export const Logo = styled.img`
-width: 12.8125rem
-
-`
+  width: 12.8125rem;
+`;
