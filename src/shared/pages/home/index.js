@@ -1,13 +1,17 @@
 import React from "react";
 import { Container, Input, Text } from "../../components";
-
+import Logo from '../../assets/museu1.png'
 import * as S from "./styles";
 
 export const Home = () => {
   return (
     <Container>
       <S.Container>
-        <S.Asside></S.Asside>
+        <S.Asside>
+<S.Logo src={Logo} alt='logo museu'/>
+<Text as='h1' fontSize='2rem' color='#fff'>Museu Uniacademua</Text>
+
+        </S.Asside>
         <S.Content>
           <S.ContentTop>
             <Text as='p' fontSize='12px'>Imagem</Text>

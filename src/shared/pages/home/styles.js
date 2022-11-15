@@ -10,6 +10,11 @@ export const Asside = styled.aside`
   width: 17rem;
   height: auto;
   background: #2290ff;
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  align-items: center;
+  padding: 1.5rem;
 `;
 
 export const Content = styled.div`
@@ -42,3 +47,8 @@ export const ContentBot = styled.div`
   justify-content: center;
   margin-bottom: 3rem;
 `;
+
+export const Logo = styled.img`
+width: 12.8125rem
+
+`
