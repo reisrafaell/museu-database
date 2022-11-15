@@ -22,10 +22,8 @@ export const Asside = styled.aside`
 `;
 
 export const Logo = styled.img`
-width: 12.8125rem;
-
+  width: 12.8125rem;
 `;
-
 
 export const Content = styled.div`
   flex: 1;
@@ -44,33 +42,30 @@ export const ContentTop = styled.div`
   align-items: flex-start;
   padding: 1rem;
   gap: 1rem;
-  
 `;
 
 export const ContentMiddle = styled.div`
-width: 100%;
-height: 20rem;
-background-color: #fff;
-border-radius: 0.5rem;
-display: flex;
-flex-direction: column;
-align-items: flex-start;
-padding: 1rem;
-gap: 1rem;
-h3{
+  width: 100%;
+  height: 20rem;
+  background-color: #fff;
+  border-radius: 0.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 1rem;
+  gap: 1rem;
+  h3 {
     width: 100%;
-}
+  }
 
->div{
+  > div {
     display: flex;
-    gap: 4rem
-}
-form{
+    gap: 4rem;
+  }
+  form {
     display: flex;
     flex-direction: column;
-}
-
-
+  }
 `;
 
 export const ContentBot = styled.div`
@@ -79,12 +74,48 @@ export const ContentBot = styled.div`
   padding: 1rem;
   background-color: #fff;
   border-radius: 0.5rem;
-  display: grid;
-  
-  grid-template-columns: repeat(auto-fill, minmax(18rem, auto));
-  grid-gap: 10px;
-  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
   margin-bottom: 3rem;
 `;
 
+export const Table = styled.table`
+  border: 1px solid "#000";
+  width: 100%;
 
+
+  td {
+    width: 15.2rem;
+    height: 100%;
+    padding-left: 0.2rem;
+    display: flex;
+    align-items: center;
+    border: 1px solid #000;
+    padding-left: 0.5rem;
+  }
+`;
+
+export const ButtonTable = styled.button`
+  border: 0;
+  flex: 1;
+  height: 100%;
+  background-color: #727272;
+  color: #fff;
+  align-self: flex-end;
+`;
+
+export const TR = styled.tr`
+  
+    height: 2.5rem;
+    border: 1px solid "#000";
+
+    background-color: #dedddd;
+    background-color: ${(props) => (props.bg ? "#dedddd" : "#F5F5F5")};
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 2px;
+  
+`;
