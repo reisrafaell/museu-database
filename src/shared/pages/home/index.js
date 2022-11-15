@@ -8,7 +8,7 @@ export const Home = () => {
   const navigate = useNavigate();
 
   const HandleNavigat = () => {
-    navigate("/inventário");
+    navigate("/inventario");
   };
   return (
     <Container>
