@@ -3,6 +3,7 @@ import styled from "styled-components";
 export const Container = styled.div`
   background-color: #f3f6f9;
   display: flex;
+  height: 100%;
 `;
 
 export const Asside = styled.aside`
